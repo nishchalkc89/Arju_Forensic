@@ -14,13 +14,13 @@ const Hero = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/arju-bhusal-%F0%9F%87%B3%F0%9F%87%B5-762530361/',
       color: 'text-blue-600'
     },
     {
       icon: ExternalLink,
       label: 'Portfolio',
-      href: '#',
+      href: 'https://arjubhusal.com.np/',
       color: 'text-accent'
     },
     {

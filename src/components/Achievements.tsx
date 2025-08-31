@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import { Users, Award, Trophy, Star, Camera } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import arjuPhoto from '../assets/forensic.jpg';   
+import arjuPhoto1 from '../assets/arju.jpg';
+import arjuPhoto2 from '../assets/award.jpg';
+
 
 const Achievements = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,28 +29,29 @@ const Achievements = () => {
 
   const achievements = [
     {
-      title: 'Forensic Society Workshop',
-      description: 'Active participation in advanced forensic investigation workshops and seminars',
-      category: 'Academic',
-      icon: Users,
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop',
-      date: '2024'
+      
+    title: 'Forensic Society Workshop',
+    description: 'Active participation in advanced forensic investigation workshops and seminars',
+    category: 'Academic',
+    icon: Users,
+    image: arjuPhoto, 
+    date: '2024'
     },
     {
       title: 'Nepalese Cultural Programme',
-      description: 'Organized and participated in cultural events promoting Nepalese heritage',
-      category: 'Cultural',
-      icon: Star,
-      image: 'https://images.unsplash.com/photo-1533651932330-1c91cd47ad23?w=400&h=300&fit=crop',
-      date: '2024'
+    description: 'Organized and participated in cultural events promoting Nepalese heritage',
+    category: 'Cultural',
+    icon: Star,
+    image: arjuPhoto1, 
+    date: '2024'
     },
     {
       title: 'Best Dressed Award',
-      description: 'Recognition for outstanding presentation and professional appearance',
-      category: 'Recognition',
-      icon: Award,
-      image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=300&fit=crop',
-      date: '2024'
+    description: 'Recognition for outstanding presentation and professional appearance',
+    category: 'Recognition',
+    icon: Award,
+    image: arjuPhoto2,  
+    date: '2024'
     },
     {
       title: 'Photography Competition',

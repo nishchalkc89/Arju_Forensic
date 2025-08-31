@@ -149,11 +149,11 @@ const About = () => {
               {/* Stats */}
               <div className="mt-8 grid grid-cols-3 gap-4">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent mb-1">4+</div>
+                  <div className="text-3xl font-bold text-accent mb-1">2+</div>
                   <div className="text-sm text-muted-foreground">Years Study</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent mb-1">10+</div>
+                  <div className="text-3xl font-bold text-accent mb-1">8+</div>
                   <div className="text-sm text-muted-foreground">Lab Projects</div>
                 </div>
                 <div className="text-center">

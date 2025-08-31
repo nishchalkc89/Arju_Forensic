@@ -73,7 +73,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Sharda University, India',
+      value: 'Oasis Venitia Heights, India',
       href: '#'
     }
   ];
@@ -273,10 +273,12 @@ const Contact = () => {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <Button variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-                    Schedule a Call
+                    <a href="#contact">Schedule a Call</a>
                   </Button>
-                  <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                  <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                    <a href="ARZOO_BHUSAL_RESUME.pdf" target="_blank" rel="noopener noreferrer">
                     View CV/Resume
+                    </a>
                   </Button>
                 </div>
               </CardContent>
