@@ -56,7 +56,7 @@ const Hero = () => {
             <div className={`text-center lg:text-left transform transition-all duration-1000 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
-              <h1 className="text-5xl md:text-7xl font-bold mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
                 <span className="text-primary-foreground block">Arju</span>
                 <span className="text-gradient block">Bhusal</span>
               </h1>

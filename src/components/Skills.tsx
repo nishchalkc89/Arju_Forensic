@@ -9,7 +9,11 @@ import {
   FileText, 
   Shield,
   BarChart,
-  Microscope
+  Microscope,
+  Palette,
+  Layers,
+  Image,
+  Map
 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -82,10 +86,10 @@ const Skills = () => {
   ];
 
   const creativeTools = [
-    { name: 'Adobe Photoshop', category: 'Photo Editing', proficiency: 80 },
-    { name: 'Adobe Creative Suite', category: 'Design', proficiency: 75 },
-    { name: 'Canva', category: 'Graphic Design', proficiency: 85 },
-    { name: 'Evidence Mapping Software', category: 'Forensic Documentation', proficiency: 70 }
+    { name: 'Adobe Photoshop', category: 'Photo Editing', proficiency: 80, icon: Image },
+    { name: 'Adobe Creative Suite', category: 'Design', proficiency: 75, icon: Layers },
+    { name: 'Canva', category: 'Graphic Design', proficiency: 85, icon: Palette },
+    { name: 'Evidence Mapping Software', category: 'Forensic Documentation', proficiency: 70, icon: Map }
   ];
 
   return (
@@ -200,6 +204,9 @@ const Skills = () => {
                   className="forensic-card border-accent/20 hover:border-accent/40 text-center"
                 >
                   <CardContent className="p-4">
+                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-accent/10 mx-auto mb-3">
+                      <tool.icon className="w-6 h-6 text-accent" />
+                    </div>
                     <h5 className="font-semibold text-foreground mb-1 text-sm">
                       {tool.name}
                     </h5>
