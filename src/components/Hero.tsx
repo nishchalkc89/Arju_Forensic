@@ -32,7 +32,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 md:pt-24 scroll-mt-20 md:scroll-mt-24">
       {/* Background with forensic pattern */}
       <div className="absolute inset-0 bg-forensic-hero">
         <div className="absolute inset-0 forensic-pattern opacity-30"></div>
